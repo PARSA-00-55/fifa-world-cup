@@ -164,25 +164,30 @@ footer > hr {
   text-transform: capitalize;
   color: lightgray;
 }
+.footer-social-links {
+  margin: 1.5rem;
+}
+.footer-social-links > a {
+  padding: 0.7rem;
+  color: lightgray;
+}
+
 /* ----------end footer---------- */
 
 /* ----------media queries start---------- */
 /* for tablet */
 
 @media (max-width: 62em) {
-  .hero-child-1 {
-    padding: 1rem 0 0 2rem;
-  }
   .hero-child-1 > h2 {
-    font-size: 2.5vh;
+    font-size: 5vh;
     font-weight: 400;
     line-height: 1;
   }
   .hero-child-1 > p {
-    font-size: 1vh;
+    font-size: 2vh;
   }
   .hero-child-1 > a {
-    padding: 0.5rem;
+    font-size: 2vh;
     font-weight: 400;
   }
   .hero-child-2 {
@@ -217,13 +222,18 @@ footer > hr {
 @media (max-width: 43.75em) {
   .hero-section,
   .main-section {
+    padding: 1rem;
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    /* flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
   }
   .hero-child-1 > h2 {
-    font-size: 2.5vh;
+    font-size: 4vh;
+  }
+  .hero-child-1 > p {
+    font-size: 2vh;
   }
   .hero-item > a {
     padding: 0.2rem;
@@ -257,8 +267,6 @@ footer > hr {
     align-items: center;
     justify-content: center;
   }
-  .footer-list > a {
-    padding: 0.5rem;
-  }
 }
+
 /* ----------media queries end---------- */
